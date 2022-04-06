@@ -1,0 +1,235 @@
+
+{
+  "intents": [
+    {
+      "tag": "",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        ":-)",
+        "heyy",
+        "hello. thank you",
+        "hii",
+        "Good morning",
+        "thank you",
+        "thanks"
+      ],
+      "responses": [
+        "Happy to see you here. Are you here to learn or hire?",
+        "Welcome again. Are you here to upgrade yourself or recruit?"
+      ]
+    },
+    {
+      "tag": "hire",
+      "patterns": ["i want to hire",
+                   "hire",
+                   "i would like to hire",
+                   "recruitment",
+                   "recrt",
+                   "i would like to recruit",
+                   "i would like to get some people",
+                   "i want some people who are good at tech"
+      ],
+      "responses": ["Welcome to be our hiring partner. \nDatahub and tcs are some of our key hiring partners. We provide training on all current trending technologies such as python, web designing, Machine learning and so on. \nWe would like to collect your details. Type 'ready' to continue"]
+    },
+    {
+      "tag": "ready",
+      "patterns": ["ready","redy","rdy","Ready"],
+      "responses": ["Thank you for your interest, we are sure you will not be disappointed with our candidates. You will be contacted within 2 days for further procedures."]
+    },
+    {
+      "tag": "learn",
+      "patterns": [
+        "learn",
+        "learn skill",
+        "acquire",
+        "acquire new skill",
+        "acquire skill",
+        "study",
+        "study skill",
+        "learn new skill",
+        "study new skill",
+        "i want to learn new skill",
+        "i want to acquire new skill",
+        "i want to study new skill",
+        "i want to learn",
+        "get skilled"
+      ],
+      "responses": [
+        "Are you a new student or a working professional?",
+        "Are you a student or an experienced professional?"
+      ]
+    },
+    {
+      "tag": "student",
+      "patterns": ["Yes, I am a student",
+                   "yes, i am a student",
+                   "yeah, i am a student",
+                   "hell yeah, i am a student",
+                   "of course, i am a student",
+                   "of course yes, i am a student",
+                   "of course yeah, i am a student",
+                   "Yep!, i am a student",
+                   "i am a student",
+                   "I am a student",
+                   "i am student",
+                   "student"
+      ],
+      "responses": [
+        "We are so glad that you are here to upgrade yourself. We provide the best experienced faculty and better placement opprtunities. We provide value added courses and also a course completion certificate.\nDo you have any courses in mind or can we suggest some of the trending courses?",
+        "Wonderful, we provide a lot of placements and better career opportunities, professional certifications, placement assists. \nDo you have any courses in mind or can we suggest some of the trending courses?",
+        "Wonderful, we offer a lot of placements and greater job opportunities, as well as professional certificates and placement assistance. \nDo you have any courses in mind or can we suggest some of the trending courses?",
+        "Good decision; we offer a large number of placements and greater job options, as well as professional certificates and placement assistance. \nDo you have any courses in mind or can we suggest some of the trending courses?",
+        "Good decision; we offer a large number of placements and improved job options, as well as professional certificates and placement assistance. \nDo you have any courses in mind or can we suggest some of the trending courses? "
+      ]
+    },
+    {
+      "tag": "working professional",
+      "patterns": ["working",
+        "professional",
+        "experienced",
+        "currently working",
+        "i am having a profession now"],
+      "responses": ["Great decision for taking time out of your busy schedule to learn. You wont be disappointed here. \nOur courses help you with promotions, increments and better subject knowledge. \nWhich area are you interested in or can we suggest a course?"]
+
+    },
+    {
+      "tag": "suggestion",
+      "patterns": ["suggest",
+                   "suggest one",
+                   "suggest an easy course",
+                   "suggest any course",
+                   "Can you suggest any course?",
+                   "yes suggest one",
+                   "suggest easy one",
+                   "yes suggest easy one",
+                   "no i dont have any. suggest one",
+                   "Can you help?",
+                   "i would love if you could help me",
+                   "that would be great",
+                   "Can you recommend a course?",
+                   "Is there anything you can recommend?",
+                   "Do you have any recommendations for courses?",
+                   "No, I'm afraid I don't. recommend a course.",
+                   "No, I don't own any. recommend a course "
+      ],
+      "responses":[
+        "These are the available courses. Which course are you interested in",
+        "These are the courses available now. What are you interested in?",
+        "These courses are available now. Which course are you interested in?",
+        "These are the courses that are available. Which course do you want to take?",
+        "This is a list of the courses that are available. Which of the following courses do you wish to take? ",
+        "These are the courses that are currently offered. Which course piques your interest?",
+        "These are the courses that are available. Which course do you want to take?"
+      ]
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "Artificial Intelligence",
+        "AI",
+        "CV",
+        "NLP",
+        "CS",
+        "DA",
+        "MI",
+        "ML",
+        "Computer Vision",
+        "natural language processing",
+        "cyber security",
+        "data analytics",
+        "machine intelligence",
+        "machine learning"
+      ],
+      "responses": ["Would you like to look into some other course or would you like to continue?"]
+    },
+    {
+      "tag": "continue",
+      "patterns": [
+        "Continue",
+        "continue",
+        "Continue with the selected course"
+      ],
+      "responses": ["Thank You. We'll contact you within 2 days. Would you like to schedule a meeting?",
+                    "Thank you very much. We'll get back to you in two days. Would you like to schedule a meeting?",
+                    "We appreciate it. Within 2 days, we'll contact you. Would you like to schedule a meeting?",
+                    "Thank you very much. We'll get back to you within two days. Would you like to schedule a meeting?"]
+    },
+    {
+      "tag": "visit",
+      "patterns": [
+        "I would like to visit your office",
+        "visit"
+      ],
+      "responses": ["Address is \n16/3262,\nFirst floor, Vallamattam Estate Seaport Airport Road,\nCSEZ P O Kakkanad Ernakulam.\nOur working time is 9 to 5. \nYou can reach the office during the working hours for further clarification. \nAnything else I can help you with?"]
+    },
+    {
+      "tag": "virtual",
+      "patterns": [
+        "meet",
+        "virtual",
+        "contact you",
+        "contact",
+        "call",
+        "i would like to call",
+        "can you give a number"],
+      "responses": ["Type 'schedule' if you want to schedule a meeting"]
+    },
+    {
+      "tag": "schedule",
+      "patterns": ["schedule","Schedule","scdle"],
+      "responses": ["Looking forward to talk to you. Anything else i can help you with?"]
+    },
+    {
+      "tag":"no",
+      "patterns": ["nope","no"],
+      "responses": ["Thank you for your valuable time & we hope to help you reach your dream job."]
+    },
+    {
+      "tag": "yes",
+      "patterns": ["yes","yeah"],
+      "responses": ["What is it?"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks",
+                   "thank you",
+                   "that's helpful",
+                   "thanks a lot!",
+                   "thanks for helping",
+                   "thank you so much",
+                   "thanks",
+                   "ok thank you",
+                   "ok thanks",
+                   "ok",
+                   "tq u",
+                   "thnk u",
+                    "thnkz"],
+      "responses": ["Happy to help!",
+                    "Any time!",
+                    "My pleasure",
+                    "No problem!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye",
+                   "see you later",
+                   "goodbye",
+                   "thanks, bye",
+	               "thanks for the help, goodbye",
+                   "thank you, bye",
+	               "thank you, goodbye",
+	               "thanks goodbye",
+	               "thanks good bye"],
+      "responses": ["see you later, thanks for visiting",
+                    "have a nice day",
+                    "bye! Come back again soon.",
+                    "no problem, goodbye",
+	                "not a problem! Have a nice day",
+	                "bye! Come back again soon.",
+	                "see you later, thanks for visiting"
+      ]
+    }
+  ]
+}
